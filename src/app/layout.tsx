@@ -26,8 +26,11 @@ export default function RootLayout({
 
 function Header() {
   return (
-    <header>
-      <span>24 Hours</span>
+    <header className="">
+      <div className="bg-red-500 flex justify-between">
+        <div>24 Hours</div>
+        <div>Profile</div>
+      </div>
     </header>
   );
 }
